@@ -12,5 +12,5 @@ except ImportError:
     # import newer version
     from mpmath import mp
 
-mp.dps = num  # set number of digits
+mp.dps = num  # set number of digits(limit)
 print(mp.pi)   # print pi to a thousand places
